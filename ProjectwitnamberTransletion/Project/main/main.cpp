@@ -1,6 +1,7 @@
 #include <iostream>
 #include "get_calendar.h"
 #include"number_translation.h"
+#include "clock_and_timer.h"
 
 using namespace std;
 
@@ -9,7 +10,7 @@ int main() {
 	int userChoice;
 
     do {
-        cout << "\n1 - Calendar\n2 - NumberTranslation\n3 - ìîäóëü 3\n4 - ìîäóëü 4\n5 - âûõîä\n";
+        cout << "\n1 - Calendar\n2 - NumberTranslation\n3 - Ã¬Ã®Ã¤Ã³Ã«Ã¼ 3\n4 - Ã¬Ã®Ã¤Ã³Ã«Ã¼ 4\n5 - Ã¢Ã»ÃµÃ®Ã¤\n";
         cin >> userChoice;
         switch (userChoice) {
         case 1:
@@ -19,14 +20,15 @@ int main() {
             number_translation();
             break;
         case 3:
+	displayCurrentTime();
             break;
         case 4:
             break;
         case 5:
-            cout << "Âûõîä èç ïðîãðàììû\n";
+            cout << "Ã‚Ã»ÃµÃ®Ã¤ Ã¨Ã§ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã»\n";
             break;
         default:
-            cout << "Îøèáêà: íåâåðíûé ââîä\n";
+            cout << "ÃŽÃ¸Ã¨Ã¡ÃªÃ : Ã­Ã¥Ã¢Ã¥Ã°Ã­Ã»Ã© Ã¢Ã¢Ã®Ã¤\n";
             break;
         }
     } while (userChoice != 5);
