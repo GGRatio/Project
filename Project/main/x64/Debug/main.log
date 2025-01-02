@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\burbl\Desktop\Project\Project\main\main.cpp(14,27): warning C4144: >: использование выражения с оператором отношения в качестве выражения для выбора вариантов
+C:\Users\burbl\Desktop\Project\Project\main\main.cpp(17,9): warning C4808: вариант "2" не является допустимым значением для условия оператора switch типа "bool"
+C:\Users\burbl\Desktop\Project\Project\main\main.cpp(19,9): warning C4808: вариант "3" не является допустимым значением для условия оператора switch типа "bool"
+C:\Users\burbl\Desktop\Project\Project\main\main.cpp(21,9): warning C4808: вариант "4" не является допустимым значением для условия оператора switch типа "bool"
+C:\Users\burbl\Desktop\Project\Project\main\main.cpp(23,9): warning C4808: вариант "5" не является допустимым значением для условия оператора switch типа "bool"
+  main.vcxproj -> C:\Users\burbl\Desktop\Project\Project\x64\Debug\project.exe
