@@ -1,0 +1,130 @@
+body{
+  background-color: #213555;
+}
+div{width: 100%;}
+
+@font-face {
+    font-family: "SupremeBold";
+    src: url("../fonts/Supreme/SupremeLL-Bold.otf");
+}   
+@font-face {
+    font-family: "Otofon";
+    src: url("../fonts/otofon/Otofon.ttf");
+}   
+
+*{font-family:'SupremeBold';}
+
+nav{
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: auto;
+    background-color: #3E5879;
+    .logo{
+        font-size: 40px;
+    }
+    a{
+        margin: 20px;
+        color: black;
+    }
+}
+.Team{
+    height: 450px;
+    border-radius: 10px;
+    background-color: #3E5879;
+    .container{display:flex;
+    width: auto;
+    div{
+        border: 20px solid #3E5879;
+        background-color: #D8C4B6;
+    }
+    .t1{
+        flex-grow: 20%;
+        img{
+            height: 60%;
+            width: 70%;
+        }
+    }
+    .t2{
+        flex-grow: 20%;
+        img{
+            height: 60%;
+            width: 70%;
+        }
+    }
+    .t3{
+        flex-grow: 20%;
+        img{
+            height: 60%;
+            width: 70%;
+        }
+    }
+    .t4{
+        flex-grow: 20%;
+        img{
+            height: 60%;
+            width: 70%;
+        }
+    }
+    .t5{
+        flex-grow: 20%;
+        img{
+            height: 60%;
+            width: 70%;
+        }
+    }
+}
+}
+.Team a{padding-left: 25px;
+color:black}
+img{margin-left: 40px;}
+
+h1{
+    text-align: center;
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-align: center;
+}
+.Creation{
+    margin-top: 70px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #3E5879;
+    p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    padding-left: 15px;
+    text-indent: 20px;
+    font-size: 25px;}
+}
+.Manual{
+    height: 190px;
+    border-radius: 10px;
+    background-color: #3E5879;
+    ul{
+        li{
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+        }
+    }
+}
+.FAQ{
+    height: 340px;
+    border-radius: 10px;
+    background-color: #3E5879;
+    ul{
+        li{
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+            ul{
+                li{
+                    font-size: 25px;
+                    font-weight: lighter;
+                    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+                }
+            }
+        }
+    }
+}
+.NO {list-style-type: none;
+font-weight: bold;} 
